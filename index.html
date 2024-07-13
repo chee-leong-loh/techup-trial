@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chee's Web Application</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <header>
@@ -22,14 +23,28 @@
             <h2>Some facts about UrAmazingChee!</h2>
             <p>In this space, get to know your Chee expect the magical to happen! Get ready to be astounded! :) </p>
             <img src="https://kawaiihoshi.com/wp-content/uploads/2022/09/peach-goma-438x329.jpg" alt="Placeholder Image">
+            <button onclick="sayHello()">What does Chee wanna say?</button>
             <p>Here are the two cardinal truths</p>
             <ul>
                 <li>1. Zach loves hisChee very much! </li>
                 <li>2. Chee loves hisZach too!</li>
             </ul>
+
+            <hr>
+
+            <h2>Please key in your age below</h2>
+
+            <input type="text" name="Age" id="user-input">
+            <button onclick="showAge()">Tell Us Your Age!</button>
+               
+            <p>Thanks for confirming that your age is: <span id="header-age"></span></p>
+
             <p>What are you waiting for? Visit the <a href="https://www.thedigitalacademy.tech.gov.sg/">GovTech Digital Academy (DA)</a> for more information about our marvellous programmes! </p>
         </section>
     </main>
+    
+    <hr>
+
     <footer>
         <p>&copy; Presented to you by Chee Leong; in 2024 </p>
     </footer>
